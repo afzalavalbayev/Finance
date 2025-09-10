@@ -1,0 +1,77 @@
+.footer{
+    font-family: 'Poppins';
+
+    .through_caribou{
+        width: 1152px;
+        height: 408px;
+background: #0075E3;
+border-radius: 24px;
+text-align: center;
+margin: auto;
+
+.caribou_text{
+    font-size: 48px;
+    color: white;
+    width: 617px;
+    margin: auto;
+    padding-bottom: 61px;
+    padding-top: 90px;
+}
+
+.caribou_btn{
+width: 241px;
+height: 64px;
+background: #FFFFFF;
+border-radius: 4px;
+border: none;
+font-size: 18px;
+}
+    }
+
+    .footer_top{
+        width: 100%;
+        height: 400px;
+background: #191C22;
+display: flex;
+justify-content: center;
+gap: 150px;
+padding-top: 100px;
+
+.footer_imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_logo{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.social_png{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer_column{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .column_title{
+        color: white;
+        font-size: 18px;
+    }
+
+    .column_text{
+        font-size: 14px;
+        color: #D1D1D1;
+    }
+}
+
+    }
+
+
+}

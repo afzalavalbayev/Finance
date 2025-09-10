@@ -1,0 +1,38 @@
+.credits{
+    padding-top: 100px;
+    font-family: 'Poppins';
+
+    .advantages{
+        color: black;
+        display: flex;
+        font-size: 18px;
+        gap: 176px;
+        justify-content: center;
+
+        .advantage{
+            display: flex;
+            gap: 9px;
+            align-items: center;
+        }
+
+        .first_plus{
+            display: flex;
+            gap: 146px;
+        }
+    }
+
+    .in_news{
+        color: #008765;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fonts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 57px;
+        gap: 40px;
+    }
+}

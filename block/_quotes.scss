@@ -1,0 +1,47 @@
+.quotes{
+    font-family: 'Poppins';
+
+    .refinance{
+        display: flex;
+        align-items: center;
+        gap: 200px;
+        justify-content: center;
+
+        .finance_text{
+
+            .finance_from{
+                color: #008765;
+                padding-bottom: 11px;
+            }
+
+            .finance_title{
+                font-size: 48px;
+                width: 371px;
+                padding-bottom: 25px;
+            }
+
+            .finance_subtitle{
+                font-size: 18px;
+                color: #636363;
+                width: 470px;
+                line-height: 32px;
+                padding-bottom: 37px;
+            }
+
+            .finance_btn{
+                width: 221px;
+                height: 64px;
+                border-radius: 4px;
+                text-align: center;
+                background-color: #0075E3;
+                font-size: 18px;
+                border: none;
+                color: white;
+            }
+        }
+    }
+
+    .refinance_img{
+        padding-left: 20%;        
+    }
+}

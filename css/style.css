@@ -1,0 +1,420 @@
+.intro {
+  margin-top: 50px;
+  background-image: url(../assets/IMAGE.png);
+  width: 1168px;
+  height: 400px;
+  margin: auto;
+  border-radius: 24px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.intro .intro_title {
+  font-size: 58px;
+  color: white;
+  width: 600px;
+  margin: auto;
+  letter-spacing: 1px;
+  padding-top: 100px;
+}
+.intro .intro_subtitle {
+  color: white;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.intro .intro_startbtn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-left: 650px;
+  cursor: pointer;
+}
+.intro .intro_checkbtn {
+  width: 342px;
+  height: 64px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 16px;
+  font-size: 18px;
+  background-color: #0075E3;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 50px;
+  font-family: "Poppins";
+  width: 100%;
+  background-color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  gap: 500px;
+}
+.navbar .nav_left {
+  display: flex;
+  gap: 16px;
+}
+.navbar .nav_price {
+  color: #008765;
+}
+.navbar .nav_login {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+}
+
+.credits {
+  padding-top: 100px;
+  font-family: "Poppins";
+}
+.credits .advantages {
+  color: black;
+  display: flex;
+  font-size: 18px;
+  gap: 176px;
+  justify-content: center;
+}
+.credits .advantages .advantage {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.credits .advantages .first_plus {
+  display: flex;
+  gap: 146px;
+}
+.credits .in_news {
+  color: #008765;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.credits .fonts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 57px;
+  gap: 40px;
+}
+
+.quotes {
+  font-family: "Poppins";
+}
+.quotes .refinance {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: center;
+}
+.quotes .refinance .finance_text .finance_from {
+  color: #008765;
+  padding-bottom: 11px;
+}
+.quotes .refinance .finance_text .finance_title {
+  font-size: 48px;
+  width: 371px;
+  padding-bottom: 25px;
+}
+.quotes .refinance .finance_text .finance_subtitle {
+  font-size: 18px;
+  color: #636363;
+  width: 470px;
+  line-height: 32px;
+  padding-bottom: 37px;
+}
+.quotes .refinance .finance_text .finance_btn {
+  width: 221px;
+  height: 64px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #0075E3;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
+.quotes .refinance_img {
+  padding-left: 20%;
+}
+
+.car_insurance {
+  width: 100%;
+  height: 360px;
+  background-color: #09414E;
+  border-radius: 0px 0px 16px 16px;
+  font-family: "Poppins";
+  padding: 55px 16px 40px 40px;
+}
+.car_insurance .find_coverage {
+  color: #008765;
+  padding-bottom: 19px;
+}
+.car_insurance .insurance_title {
+  font-size: 48px;
+  color: white;
+  padding-bottom: 25px;
+}
+.car_insurance .insurance_subtitle {
+  font-size: 18px;
+  padding-bottom: 37px;
+  color: white;
+}
+.car_insurance .insurance_btn {
+  width: 177px;
+  height: 64px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+}
+
+.how_much_save {
+  margin-top: 112px;
+  font-family: "Poppins";
+  width: 100%;
+  height: 1000px;
+  background-color: #F8F8F8;
+  border-radius: 20px 20px 0px 0px;
+  text-align: center;
+  padding-top: 79px;
+}
+.how_much_save .most_save {
+  color: #008765;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+}
+.how_much_save .save_title {
+  font-size: 48px;
+  padding-bottom: 21px;
+}
+.how_much_save .save_subtitle {
+  font-size: 17px;
+  color: #636363;
+  padding-bottom: 55px;
+}
+.how_much_save .save_btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 17px;
+}
+.how_much_save .get_started_save {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 53px;
+}
+
+.stories {
+  font-family: "Poppins";
+}
+.stories .stories_top {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  padding-left: 143px;
+}
+.stories .stories_top .arrows {
+  display: flex;
+  gap: 64px;
+}
+.stories .stories_top .customer_stories_p {
+  color: #008765;
+}
+.stories .stories_top .customer_stories_title {
+  font-size: 48px;
+  width: 550px;
+  padding-bottom: 38px;
+}
+.stories .stories_top .customer_stories_subtitle {
+  display: flex;
+  align-items: center;
+}
+.stories .stories_top .customer_stories_subtitle .trustpilot {
+  color: #008765;
+}
+.stories .customer_stories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 93px;
+}
+.stories .customer_stories .customer_storie {
+  width: 347px;
+  height: 403px;
+  border-radius: 16px;
+  box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.04);
+  padding: 32px 32px;
+}
+.stories .customer_stories .customer_storie .customer_storie_text {
+  padding-top: 31px;
+  padding-bottom: 29px;
+}
+.stories .customer_stories .customer_storie .storie_date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search_FAQs {
+  width: 1200px;
+  height: 576px;
+  border-radius: 20px;
+  background-image: url(../assets/IMAGE\ \(8\).png);
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins";
+  padding-top: 70px;
+}
+.search_FAQs .FAQs_title {
+  color: white;
+  font-size: 48px;
+  padding-bottom: 16px;
+}
+.search_FAQs .FAQs_subtitle {
+  color: white;
+  padding-bottom: 57px;
+  padding-top: 21px;
+}
+.search_FAQs .FAQs_btn {
+  width: 219px;
+  height: 64px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0075E3;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.set_us {
+  font-family: "Poppins";
+}
+.set_us .set_us_title {
+  padding-top: 79px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+.set_us .set_us_title .set_us_title_p {
+  color: #008765;
+}
+.set_us .set_us_title .set_us_title_h {
+  font-size: 48px;
+  width: 1078px;
+  margin: auto;
+}
+.set_us .set_box {
+  width: 1097px;
+  height: 239px;
+  box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  margin: auto;
+  padding: 40px;
+}
+.set_us .set_box .set_box_title {
+  font-size: 24px;
+}
+.set_us .set_box .set_box_subtitle {
+  color: #636363;
+  font-size: 18px;
+}
+.set_us .set_box_wth_img {
+  width: 1097px;
+  height: 239px;
+  box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+  margin: auto;
+  padding: 40px;
+}
+.set_us .set_box_wth_img .set_box_title {
+  font-size: 24px;
+  padding-top: 22px;
+}
+.set_us .set_box_wth_img .set_box_subtitle {
+  color: #636363;
+  font-size: 18px;
+}
+
+.footer {
+  font-family: "Poppins";
+}
+.footer .through_caribou {
+  width: 1152px;
+  height: 408px;
+  background: #0075E3;
+  border-radius: 24px;
+  text-align: center;
+  margin: auto;
+}
+.footer .through_caribou .caribou_text {
+  font-size: 48px;
+  color: white;
+  width: 617px;
+  margin: auto;
+  padding-bottom: 61px;
+  padding-top: 90px;
+}
+.footer .through_caribou .caribou_btn {
+  width: 241px;
+  height: 64px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+}
+.footer .footer_top {
+  width: 100%;
+  height: 400px;
+  background: #191C22;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 100px;
+}
+.footer .footer_top .footer_imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer .footer_top .footer_logo {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.footer .footer_top .social_png {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.footer .footer_top .footer_column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer_top .footer_column .column_title {
+  color: white;
+  font-size: 18px;
+}
+.footer .footer_top .footer_column .column_text {
+  font-size: 14px;
+  color: #D1D1D1;
+}/*# sourceMappingURL=style.css.map */

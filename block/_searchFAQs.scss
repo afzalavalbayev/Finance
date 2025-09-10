@@ -1,0 +1,33 @@
+.search_FAQs{
+    width: 1200px;
+    height: 576px;
+    border-radius: 20px;
+    background-image: url(../assets/IMAGE\ \(8\).png);
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins';
+    padding-top: 70px;
+    
+    .FAQs_title{
+        color: white;
+        font-size: 48px;
+        padding-bottom: 16px;
+    }
+
+    .FAQs_subtitle{
+        color: white;
+        padding-bottom: 57px;
+        padding-top: 21px;
+    }
+
+    .FAQs_btn{
+        width: 219px;
+        height: 64px;
+        border: none;
+        border-radius: 4px;
+        background-color: #0075E3;
+        text-align: center;
+        color: white;
+        font-size: 18px
+    }
+}

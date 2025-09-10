@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 50px;
+    font-family: 'Poppins';
+    width: 100%;
+    background-color: #fff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    gap: 500px;
+    .nav_left{
+        display: flex;
+        gap: 16px;
+    }
+
+    .nav_price{
+        color: #008765;
+    }
+    
+    .nav_login{
+        border: none;
+        background: transparent;
+        font-size: 18px;
+    }
+}

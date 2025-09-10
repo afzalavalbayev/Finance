@@ -1,0 +1,36 @@
+.car_insurance{
+    width: 100%;
+    height: 360px;
+    background-color: #09414E;
+    border-radius: 0px 0px 16px 16px;
+    font-family: 'Poppins';
+    padding: 55px 16px 40px 40px;
+
+    .find_coverage{
+        color: #008765;
+        padding-bottom: 19px;
+    }
+
+    .insurance_title{
+        font-size: 48px;
+        color: white;
+        padding-bottom: 25px;
+    }
+
+    .insurance_subtitle{
+        font-size: 18px;
+        padding-bottom: 37px;
+        color: white;
+    }
+
+    .insurance_btn{
+        width: 177px;
+        height: 64px;
+        border: none;
+        border-radius: 4px;
+        background-color: #fff;
+        color: black;
+        text-align: center;
+        font-size: 18px;
+    }
+}
