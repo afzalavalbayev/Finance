@@ -4,9 +4,9 @@
     .stories_top{
         display: flex;
         align-items: center;
-        gap: 300px;
+        justify-content: center;
         padding-left: 143px;
-
+        gap: 520px;
         .arrows{
             display: flex;
             gap: 64px;
@@ -32,7 +32,6 @@
     }
 
     .customer_stories{
-
         display: flex;
         align-items: center;
         justify-content: center;

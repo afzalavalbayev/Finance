@@ -61,9 +61,9 @@
   font-size: 18px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   cursor: pointer;
-  gap: 500px;
+  gap: 700px;
 }
 .navbar .nav_left {
   display: flex;
@@ -76,6 +76,7 @@
   border: none;
   background: transparent;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .credits {
@@ -103,6 +104,7 @@
   padding-top: 50px;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 .credits .fonts {
   display: flex;
@@ -146,9 +148,11 @@
   font-size: 18px;
   border: none;
   color: white;
+  cursor: pointer;
 }
-.quotes .refinance_img {
-  padding-left: 20%;
+.quotes .refinance_imgb {
+  width: 900px;
+  margin: auto;
 }
 
 .car_insurance {
@@ -159,21 +163,25 @@
   font-family: "Poppins";
   padding: 55px 16px 40px 40px;
 }
-.car_insurance .find_coverage {
+.car_insurance .car_insurance_box {
+  width: 1400px;
+  margin: auto;
+}
+.car_insurance .car_insurance_box .find_coverage {
   color: #008765;
   padding-bottom: 19px;
 }
-.car_insurance .insurance_title {
+.car_insurance .car_insurance_box .insurance_title {
   font-size: 48px;
   color: white;
   padding-bottom: 25px;
 }
-.car_insurance .insurance_subtitle {
+.car_insurance .car_insurance_box .insurance_subtitle {
   font-size: 18px;
   padding-bottom: 37px;
   color: white;
 }
-.car_insurance .insurance_btn {
+.car_insurance .car_insurance_box .insurance_btn {
   width: 177px;
   height: 64px;
   border: none;
@@ -182,6 +190,7 @@
   color: black;
   text-align: center;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .how_much_save {
@@ -229,8 +238,9 @@
 .stories .stories_top {
   display: flex;
   align-items: center;
-  gap: 300px;
+  justify-content: center;
   padding-left: 143px;
+  gap: 520px;
 }
 .stories .stories_top .arrows {
   display: flex;
@@ -304,6 +314,7 @@
   text-align: center;
   color: white;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .set_us {
@@ -329,6 +340,7 @@
   border-radius: 16px;
   margin: auto;
   padding: 40px;
+  cursor: pointer;
 }
 .set_us .set_box .set_box_title {
   font-size: 24px;
@@ -356,6 +368,10 @@
 
 .footer {
   font-family: "Poppins";
+  width: 100%;
+  height: 1600px;
+  background-color: #191C22;
+  margin-top: 20px;
 }
 .footer .through_caribou {
   width: 1152px;
@@ -380,11 +396,11 @@
   border-radius: 4px;
   border: none;
   font-size: 18px;
+  cursor: pointer;
 }
 .footer .footer_top {
   width: 100%;
   height: 400px;
-  background: #191C22;
   display: flex;
   justify-content: center;
   gap: 150px;
@@ -417,4 +433,49 @@
 .footer .footer_top .footer_column .column_text {
   font-size: 14px;
   color: #D1D1D1;
+}
+.footer .footer_hr {
+  width: 976px;
+  height: 1px;
+  background-color: #47494E;
+  border: none;
+  margin: auto;
+}
+.footer .footer_middle {
+  padding-top: 54px;
+}
+.footer .footer_text {
+  width: 976px;
+  height: 88px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  color: #D1D1D1;
+  margin: auto;
+  padding-bottom: 12px;
+}
+.footer .footer_bottom {
+  padding-top: 40px;
+  color: #D1D1D1;
+  width: 978px;
+  margin: auto;
+}
+.footer .rights_reserved {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+.footer .footer_link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #D1D1D1;
+  padding-right: 10px;
+}
+.footer a {
+  text-decoration: none;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
